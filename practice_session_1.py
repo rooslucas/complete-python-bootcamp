@@ -1,5 +1,5 @@
 import keyword
-import constant
+import tryouts
 
 print(keyword.kwlist)
 print("Hello this is python")
@@ -59,7 +59,38 @@ q()
 
 # Learn about constants
 
-# PI = 3.14
-# GRAVITY = 9.8
-# print(constant.PI)
-# print(constant.GRAVITY)
+PI = 3.14
+GRAVITY = 9.8
+print(tryouts.PI)
+print(tryouts.GRAVITY)
+
+# Learn about Statements/Comments
+print("This is useful to understand your program")
+
+# Learn about Type Convention
+# Implicit
+
+num_int = 1333
+num_float = 1.25
+num_new = num_int + num_float
+
+print("Data type of int Num ", type(num_int))
+print("Data type of float Num ", type(num_float))
+
+print("Value of num new ", num_new)
+print("Data type of num new ", type(num_new))
+
+# Explicit
+num_int2 = 1333
+num_str = "856"
+
+print("Data type of int Num ", type(num_int))
+print("Data type of string Num ", type(num_str))
+num_str = int(num_str)
+print("Data type of num str after type cating ", type(num_str))
+num_sum = num_int2 + num_str
+
+print("Sum of num int and num str ", num_sum)
+print("Data type of the sum ", type(num_sum))
+
+
